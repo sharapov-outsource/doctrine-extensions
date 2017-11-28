@@ -18,7 +18,6 @@ solution is best suited for hierarchies that are much more frequently read
 than written to. And because of the nature of the web, this is the case for
 most web applications.
 
-
 ## Setting Up
 
 To set up your model as a Nested Set, your entity classes must implement the
