@@ -1,5 +1,5 @@
 {
-    "name": "sharapov/DoctrineExtensions",
+    "name": "sharapov/doctrine-extensions",
     "type": "library",
     "description": "A batch of Doctrine2 extensions",
     "keywords": ["doctrine", "orm", "database"],
