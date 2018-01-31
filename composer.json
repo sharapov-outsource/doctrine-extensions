@@ -3,7 +3,7 @@
     "type": "library",
     "description": "A batch of Doctrine2 extensions",
     "keywords": ["doctrine", "orm", "database"],
-    "license": "LGPL",
+    "license": "GPL-3.0",
     "authors": [
         {"name": "Brandon Turner", "email": "bturner@bltweb.net"},
         {"name": "Alexander Sharapov", "email": "alexander@sharapov.biz"}
