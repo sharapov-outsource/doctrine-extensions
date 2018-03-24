@@ -1,29 +1,37 @@
 {
-    "name": "sharapov/doctrine-extensions",
-    "type": "library",
-    "description": "A batch of Doctrine2 extensions",
-    "keywords": ["doctrine", "orm", "database"],
-    "license": "GPL-3.0-only",
-    "authors": [
-        {"name": "Brandon Turner", "email": "bturner@bltweb.net"},
-        {"name": "Alexander Sharapov", "email": "alexander@sharapov.biz"}
-    ],
-    "require": {
-        "php": ">=5.3.2"
+  "name": "sharapov/doctrine-extensions",
+  "type": "library",
+  "description": "A batch of Doctrine2 extensions",
+  "keywords": [
+    "doctrine",
+    "orm",
+    "database"
+  ],
+  "license": "GPL-3.0-only",
+  "authors": [
+    {
+      "name": "Brandon Turner",
+      "email": "bturner@bltweb.net"
     },
-    "require-dev": {
-        "doctrine/orm": "~2.1"
-    },
-    "suggest": {
-        "doctrine/orm": "Doctrine ORM model"
-    },
-    "autoload": {
-        "psr-4": {"Sharapov\\DoctrineExtensions\\" : "src/"}
-    },
-    "autoload-dev": {
-        "psr-4": { "Sharapov\\DoctrineExtensions\\Tests\\": "tests/" }
-    },
-    "extra": {
-
+    {
+      "name": "Alexander Sharapov",
+      "email": "alexander@sharapov.biz"
     }
+  ],
+  "require": {
+    "php": ">=5.3.2"
+  },
+  "require-dev": {
+    "doctrine/orm": "~2.1"
+  },
+  "suggest": {
+    "doctrine/orm": "Doctrine ORM model"
+  },
+  "autoload": {
+    "psr-4": {
+      "Sharapov\\DoctrineExtensions\\": "src/doctrine-extensions/"
+    }
+  },
+  "extra": {
+  }
 }
