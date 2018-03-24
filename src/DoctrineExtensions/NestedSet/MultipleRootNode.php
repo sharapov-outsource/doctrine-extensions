@@ -16,7 +16,7 @@
  * and is licensed under the LGPL.
  */
 
-namespace DoctrineExtensions\NestedSet;
+namespace Sharapov\DoctrineExtensions\NestedSet;
 
 
 /**

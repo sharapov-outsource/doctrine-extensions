@@ -16,7 +16,7 @@
  * and is licensed under the LGPL.
  */
 
-namespace DoctrineExtensions\NestedSet;
+namespace Sharapov\DoctrineExtensions\NestedSet;
 
 /**
  * The Manager provides functions for creating and fetching a NestedSet tree.
@@ -35,10 +35,10 @@ class Manager
     /**
      * Initializes a new NestedSet Manager.
      *
-     * @param string|Doctrine\ORM\Mapping\ClassMetadata $clazz the fully qualified entity class name
+     * @param string|\Doctrine\ORM\Mapping\ClassMetadata $clazz the fully qualified entity class name
      *   or a ClassMetadata object representing the class of nodes to be managed
      *   by this manager
-     * @param Doctrine\ORM\EntityManager $em The EntityManager to use.
+     * @param \Doctrine\ORM\EntityManager $em The EntityManager to use.
      */
     public function __construct(Config $config)
     {

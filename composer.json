@@ -18,10 +18,10 @@
         "doctrine/orm": "Doctrine ORM model"
     },
     "autoload": {
-        "psr-4": {"DoctrineExtensions\\" : "src/"}
+        "psr-4": {"Sharapov\\DoctrineExtensions\\" : "src/"}
     },
     "autoload-dev": {
-        "psr-4": { "DoctrineExtensions\\Tests\\": "tests/" }
+        "psr-4": { "Sharapov\\DoctrineExtensions\\Tests\\": "tests/" }
     },
     "extra": {
 
